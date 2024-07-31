@@ -20,7 +20,7 @@
   },
   "scripts": {
     "start": "remotion studio",
-    "build": "remotion render MyVideo  out/video.mp4",
+    "build": "bash ./vercel-build.sh && remotion render MyVideo  out/video.mp4",
     "upgrade": "remotion upgrade",
     "test": "eslint src --ext ts,tsx,js,jsx"
   },
